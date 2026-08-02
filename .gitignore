@@ -1,0 +1,56 @@
+# Default .gitignore for Claude skill-bundle repositories.
+
+# ── Disposable artifacts (project convention: 🚫 prefix = throwaway) ──────
+🚫*
+
+# ── Python (used by orchestrator-generated helper scripts) ───────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.venv/
+venv/
+env/
+
+# ── Local environment / secrets ──────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── OS / editor junk ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Logs ─────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Build outputs ────────────────────────────────────────────────────────
+dist/
+build/
+*.egg
+node_modules/
+target/
+out/
+*.tsbuildinfo
+
+# ── Draw.io backups ──────────────────────────────────────────────────────
+*.drawio.bkp
+*.drawio.tmp
+
+# ── Machine-local Claude session state ───────────────────────────────────
+.claude/sessions/
