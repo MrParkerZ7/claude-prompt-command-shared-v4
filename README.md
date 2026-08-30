@@ -8,7 +8,7 @@ Every bundle is **self-contained** (all cross-references resolve inside its own 
 
 | Skill | Latest snapshot | Tier | Commands | Entry point |
 |---|---|---|---|---|
-| spec-driven-generation | `skills/2026-08-29_14-38-14_spec-driven-generation/` | full | (none) | [`_README.md`](skills/2026-08-29_14-38-14_spec-driven-generation/_README.md) |
+| spec-driven-generation | `skills/2026-08-30_14-28-25_spec-driven-generation/` | full | (none) | [`_README.md`](skills/2026-08-30_14-28-25_spec-driven-generation/_README.md) |
 | md-workflow | `skills/2026-08-02_21-02-18_md-workflow/` | full | `md-workflow` | [`_README.md`](skills/2026-08-02_21-02-18_md-workflow/_README.md) |
 
 ## How to consume
@@ -23,5 +23,6 @@ See each snapshot's `_README.md` for its role inventory and the command row to r
 
 | Timestamp (UTC) | Skill | Tier | Snapshot folder |
 |---|---|---|---|
+| 2026-08-30 14:28:25 | spec-driven-generation | full | `skills/2026-08-30_14-28-25_spec-driven-generation/` |
 | 2026-08-29 14:38:14 | spec-driven-generation | full | `skills/2026-08-29_14-38-14_spec-driven-generation/` |
 | 2026-08-02 21:02:18 | md-workflow | full | `skills/2026-08-02_21-02-18_md-workflow/` |
